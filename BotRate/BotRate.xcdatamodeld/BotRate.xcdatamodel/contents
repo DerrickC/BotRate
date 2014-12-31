@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Currency" representedClassName="Currency" syncable="YES">
+        <attribute name="cashBuying" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cashSelling" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="spotBuying" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spotSelling" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="QuotedDate" representedClassName="QuotedDate" syncable="YES">
+        <attribute name="dateString" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Currency" positionX="-254" positionY="-51" width="128" height="133"/>
+        <element name="QuotedDate" positionX="-63" positionY="27" width="128" height="58"/>
+    </elements>
+</model>
